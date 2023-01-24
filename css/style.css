@@ -25,6 +25,10 @@ header{
     color: white;
 }
 
+main{
+    color: black;
+}
+
 .container{
     margin: 0 auto;
 }
@@ -51,10 +55,22 @@ header{
     color: white;
 }
 
-.row{
+section{
+    padding: 50px 0;
+}
+
+.row, .row-reverse{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.bg-gray{
+    background-color: lightgray;
 }
 
 .column{
@@ -66,6 +82,33 @@ header{
 
 .margin{
     margin: 0 10px;
+}
+
+.col-big{
+    width: 70%;
+}
+
+.col-small{
+    width: 30%;
+}
+
+.col-full{
+    width: 100%;
+}
+
+.item{
+    width: 90%;
+}
+
+section h2{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 30px;
 }
 
 /*
@@ -109,10 +152,6 @@ nav ul li{
     height: 100%;
 }
 
-.header-bottom .column{
-    line-height: 30px;
-}
-
 .header-bottom .column h1{
     font-size: 40px;
     font-weight: bold;
@@ -124,4 +163,26 @@ nav ul li{
 
 /*
 /header
+*/
+
+/*
+main
+*/
+
+.text-center{
+    text-align: center;
+}
+
+.testo-medio{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.bg-azzurro{
+    background-color: #7289da;
+    color: white;
+}
+
+/*
+/main
 */
